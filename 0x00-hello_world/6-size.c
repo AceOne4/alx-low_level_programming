@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ * main - simple count program
  * main: a program that prints teh size of various types
  * printf: show what is inside
  * Return: 0 (Success)
