@@ -10,9 +10,9 @@ int main(void)
 
 	while (ch < 10)
 	{
-		printf("%d", ch)
+		printf("%d", ch);
 		ch++;
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
