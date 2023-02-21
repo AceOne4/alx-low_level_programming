@@ -11,14 +11,13 @@ void print_to_98(int n)
 		{
 			if (n == 98)
 			{
-				_putchar(98);
+				printf("%d", n);
+				printf("\n");
 			}
 			else
 			{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
-			n++;
+				printf("%d, ", n);
+				n++;
 			}
 		}
 	}
@@ -28,13 +27,12 @@ void print_to_98(int n)
 		{
 			if (n == 98)
 			{
-				_putchar(98);
+				printf("%d", n);
+				printf("\n");
 			}
 			else
 			{
-			_putchar(n);
-			_putchar(',');
-			_putchar(' ');
+			 printf("%d, ", n);
 			n--;
 			}
 		}
