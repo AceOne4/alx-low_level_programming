@@ -4,6 +4,7 @@
  * main - test function for pos or neg
  * Return: 0
  */
+
 int main(void)
 {
 	int i;
