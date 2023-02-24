@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * _isdigit - Function that print 0 if its charchter or 1 if itsnot
