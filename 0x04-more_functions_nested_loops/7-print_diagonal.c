@@ -2,8 +2,9 @@
 
 /**
  * print_diagonal - function print diagonal line
- * @n- number of lines
+ * @n: number of lines
  */
+
 void print_diagonal(int n)
 {
 	int x, y;
@@ -18,10 +19,10 @@ void print_diagonal(int n)
 		{
 			for (y = 0; y < n; y++)
 			{
-				_putcahr(32);
+				_putchar(32);
 			}
-			_putcahr(92);
-			_putcahr('\n');
+			_putchar(92);
+			_putchar('\n');
 			x++;
 		}
 	}
