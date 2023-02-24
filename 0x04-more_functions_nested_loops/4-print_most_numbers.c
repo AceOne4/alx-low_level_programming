@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_numbers - function print num followed by new line
+ * print_most_numbers - function print num followed by new line
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int n;
 
