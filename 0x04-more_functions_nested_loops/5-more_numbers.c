@@ -5,9 +5,11 @@
  */
 void more_numbers(void)
 {
-	int x, y;
+	int c = 0;
 
-	while (x <= 10)
+	int y;
+
+	while (c <= 10)
 	{
 		for (y = 0; y < 15; y++)
 		{
@@ -15,11 +17,9 @@ void more_numbers(void)
 			{
 				_putchar((y / 10) + '0');
 			}
-			else
-			{
-				_putchar((y % 10) + '0');
-			}
+			_putchar((y % 10) + '0');
 		}
+		c++;
 		_putchar('\n');
 	}
 }
