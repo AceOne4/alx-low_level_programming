@@ -25,7 +25,7 @@ int main(void)
 		}
 		else if (n == 100)
 		{
-			printf("%d", n)
+			printf("%d", n);
 		}
 		else
 		{
