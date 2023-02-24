@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	long x ,maxf;
+	long x, maxf;
 	long num = 612852475143;
 	double squ = sqrt(num);
 
