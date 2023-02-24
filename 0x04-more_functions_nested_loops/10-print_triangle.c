@@ -4,13 +4,14 @@
  * print_triangle - print triangle
  * @size: the number of line pyramids
  */
+
 void print_triangle(int size)
 {
 	int x, y, z;
 
 	if (size <= 0)
 	{
-		_putchar('\n')
+		_putchar('\n');
 	}
 	else
 	{
